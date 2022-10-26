@@ -332,7 +332,7 @@
                 const parent_node = element.parentNode
                 const span_error = document.createElement('span')
                 span_error.setAttribute('id', id)
-                span_error.innerText = $message
+                span_error.innerText = message
                 span_error.setAttribute(
                     'style',
                     `color: ${color}; font_size: .5rem; font-weight: bold`
